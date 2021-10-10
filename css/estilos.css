@@ -114,4 +114,17 @@ body{
     border-radius: 5rem;
 
 }
+.servicios a{
+    display: block;
+    text-align: center;
+    color: var(--black);
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'Krub', sans-serif;
+    padding: 1rem;
+}
+.servicios a:hover{
+    background-color: var(--titulo);
+    border-radius: 5rem;
+}
 
