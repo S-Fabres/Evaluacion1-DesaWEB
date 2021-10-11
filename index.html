@@ -15,7 +15,7 @@
 <body>
     <header class="cabecera">
         <h1 class="titulo">Mi Primer Página WEB</h1>
-        
+
         <div class="nav-bg">
             <nav class="menu-principal">
                 <a href="index.html">Inicio</a>
@@ -25,7 +25,7 @@
             </nav>
         </div>
     </header>
-    
+
     <section class="hero sombra">
         <section class="servicio">
             <h3>Samuel Fabres Machuca</h3>
@@ -36,15 +36,26 @@
             </div>
         </section>
         <div class="contenido-hero">
-            
+
 
         </div>
     </section>
     <!--Contenido servicios-->
-    <div class="contenido-servicios">
-        
+    <div class="contenido-servicios borde">
         <section class="servicios">
-            <a href="app-moviles.html">Aplicaciones Móviles</a>
+            <a class="boton" href="disenho-web.html">Diseño WEB</a>
+            <div class="icono">
+                <span style="font-size: 45px; color: #fff;">
+                    <i class="fab fa-html5"></i>
+                </span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quod, illo odio doloribus officia
+                voluptatibus ex ratione molestiae ut dolorum? Voluptates necessitatibus quod possimus fugit in quasi
+                aut
+                molestiae qui.</p>
+        </section>
+        <section class="servicios">
+            <a class="boton" href="app-moviles.html">Aplicaciones Móviles</a>
             <div class="icono">
                 <span style="font-size: 45px; color: #fff;">
                     <i class="fas fa-robot"></i>
@@ -56,7 +67,7 @@
                 molestiae qui.</p>
         </section>
         <section class="servicios">
-            <a href="ecommerce.html">E-Commerce</a>
+            <a class="boton" href="ecommerce.html">E-Commerce</a>
             <div class="icono">
                 <span style="font-size: 45px; color: #fff;">
                     <i class="fas fa-dumpster"></i>
@@ -69,20 +80,40 @@
                 exercitationem!</p>
         </section>
         <section class="servicios">
-            <a href="diseño-web.html">Diseño WEB</a>
+            <a class="boton" href="disenho-bases-de-datos.html">Diseño de bases de datos</a>
             <div class="icono">
                 <span style="font-size: 45px; color: #fff;">
-                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-database"></i>
                 </span>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quod, illo odio doloribus officia
-                voluptatibus ex ratione molestiae ut dolorum? Voluptates necessitatibus quod possimus fugit in quasi
-                aut
-                molestiae qui.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aut corporis voluptatem impedit
+                nobis
+                quisquam alias dolore dignissimos quo pariatur? Sit provident sed, quasi magnam fuga optio
+                voluptatum ea
+                exercitationem!</p>
         </section>
+    </div>
+    <div>
 
+        <form action="#" method="POST">
+            <div class="contacto borde">
+                <h2>Contacto</h2>
 
+                <label class="datos">Nombre:</label>
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <p></p>
+                <label class="datos">Teléfono:</label>
+                <input type="tel" name="Telefono" placeholder="Telefono" required>
+                <p></p>
+                <label class="datos">Correo Electrónico:</label>
+                <input type="mail" name="email" placeholder="email" required>
+                <p></p>
+                <label class="datos">Mensaje: </label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                <input type="submit" value="Enviar">
+            </div>
 
+        </form>
     </div>
 </body>
 
