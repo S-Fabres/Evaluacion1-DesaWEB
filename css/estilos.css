@@ -1,19 +1,20 @@
 :root{
     --blanco: #fff;
     --black: rgb(0, 0, 0);
-    --primario: #b2e292;
-    --secundario: #d43b3b;
+    --primario: #d6d078;
+    --secundario: #ad7272a1;
     --titulo: #43ecec;
 }
 html{
     font-size: 62.5%;
     box-sizing: border-box;
+    
 }
 *,*::before, *::after{
     box-sizing: inherit;
 }
 h2, h3{
-    background-color: var(--secundario);
+    background-color: var(--primario);
     text-align: center;
     font-size: 3rem;
     border-radius: 5rem;
@@ -45,12 +46,12 @@ body{
     align-items: center;
     justify-content: center;
     margin-bottom: 1rem;
-    background-color:var(--secundario);
     padding: 2rem;
     
 }
 .nav-bg{
-    background-color: var(--secundario);
+    background-color: var(--primario);
+    border-radius: 5rem;
 }
 .menu-principal{
     display: flex;
@@ -72,10 +73,11 @@ body{
     font-weight: 500;
     font-family: 'Krub', sans-serif;
     padding: 1rem;
+    font-weight: bold;
     
 }
 .menu-principal a:hover{
-    background-color: var(--primario);
+    background-color: var(--secundario);
     border-radius: 5rem;
 }
 .presentacion{
@@ -85,7 +87,7 @@ body{
     
 }
 .presentacion .icono{
-    background-color: var(--secundario);
+    background-color: var(--primario);
     height: 10rem;
     width: 10rem;
     border-radius: 50%;
@@ -105,8 +107,44 @@ body{
     margin-left: 1rem;
     margin-bottom: 1rem;
 }
-.hero2 {
+.hero-app-moviles {
     background-image: url(../img/app-moviles.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55rem;
+    position: relative;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.hero-disenho-web {
+    background-image: url(../img/disenho-web.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55rem;
+    position: relative;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.hero-ecommerce {
+    background-image: url(../img/ecommerce.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55rem;
+    position: relative;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.hero-disenho-bases-de-datos {
+    background-image: url(../img/disenho-bases-datos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 55rem;
@@ -135,6 +173,10 @@ body{
 .contenido-servicios{
     margin: 2rem;
 }
+.contenido-servicios h2{
+    background-color: var(--secundario);
+    border-radius: 5rem;
+}
 .borde{
     -webkit-box-shadow: -7px 15px 24px -1px rgba(61,59,61,1);
     -moz-box-shadow: -7px 15px 24px -1px rgba(61,59,61,1);
@@ -150,7 +192,6 @@ body{
     margin-top: 2rem;
 }
 .servicios .boton{
-    background-color: var(--secundario);
     color: var(--black);
     font-size: 2rem;
     border-radius: 5rem;
@@ -160,7 +201,7 @@ body{
     margin: 2rem;
 }
 .servicios .boton:hover{
-    background-color: var(--primario);
+    background-color: var(--secundario);
     border-radius: 5rem;
 }
 @media (min-width: 768px){
@@ -181,7 +222,10 @@ body{
 .servicios p{
     font-weight: bold;
 }
-
+.servicios h3{
+    background-color: var(--secundario);
+    border-radius: 5rem;
+}
 .contacto{
     margin: 2rem;
     border-radius: 5rem;
@@ -197,7 +241,7 @@ body{
     
 }
 .contacto .boton-enviar{
-    color: white;
+    color: greenyellow;
     font-size: 3rem;
     font-weight: bold;
     margin: 2rem;
